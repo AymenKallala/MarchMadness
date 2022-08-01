@@ -21,4 +21,4 @@ The file to be submitted consists of a DataFrame with :
  - A total of 5*2278 = 11 390 matches
  - The score is computed with the Log Loss :
 
-![alt text](https://github.com/AymenKallala/MarchMadness/Images/blob/master/LogLoss.png)
+![alt text](https://github.com/AymenKallala/MarchMadness/blob/master/LogLoss.png)
