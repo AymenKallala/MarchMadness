@@ -21,19 +21,20 @@ The **score** is computed with the Log Loss :
 
 (_The datasets given by Kaggle where clean and ready to be used, no Data Cleaning was required_)
 
-#### Features engineering
+### Features engineering
 Here an exemple of steps you can find in the features engineering part :
  - I deleted the conference from the seed because irrelevant
  - I computed the APBR Metrics for all team,  Metrics to provide an _“Analysis of basketball through objective evidence”._ (APBRMETRICS : apbr.org/metrics)
  (examples : Number of Wins / Losses, Win Percentage, Number of Possessions, Average Score Margin,Number of points per possession
-####Benchmarking of predictive models
+ 
+### Benchmarking of predictive models
 
 Here is table that sums up the results I had :
 
 ![alt text](Benchmark_models.png)
 
 
-####Final Prediction with the best model
+### Final Prediction with the best model
 
 So the best model to chose was the **XGBoost with K-Fold Cross Validation**
 
